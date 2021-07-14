@@ -13,10 +13,15 @@ body{
     width: 556px;
     height: 438px;
     padding-left: 57px;
-    
-      
+    transition: width 5s, height 5s, transform 5s, 1s ease-in;
+         
 }
 
+.banner-image:hover {
+    width: 600px;
+    height: 500px;
+    transform: rotate(120deg);
+}
 .top-banner{
     width: 100%;
     height: 560px;
